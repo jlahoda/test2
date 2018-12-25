@@ -12,6 +12,8 @@ package test.test;
 public class Test {
     
     public static void main(String... args) {
+        Object[] o = new Object[1];
+        System.err.println(args.equals(o));
     }
 
 }
